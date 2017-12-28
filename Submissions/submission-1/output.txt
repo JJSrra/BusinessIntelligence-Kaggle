@@ -1,0 +1,45 @@
+              Total   Percent
+PoolQC         1453  0.995205
+MiscFeature    1406  0.963014
+Alley          1369  0.937671
+Fence          1179  0.807534
+FireplaceQu     690  0.472603
+LotFrontage     259  0.177397
+GarageCond       81  0.055479
+GarageType       81  0.055479
+GarageYrBlt      81  0.055479
+GarageFinish     81  0.055479
+GarageQual       81  0.055479
+BsmtExposure     38  0.026027
+BsmtFinType2     38  0.026027
+BsmtFinType1     37  0.025342
+BsmtCond         37  0.025342
+BsmtQual         37  0.025342
+MasVnrArea        8  0.005479
+MasVnrType        8  0.005479
+Electrical        1  0.000685
+ElasticNetCV(alphas=[0.0001, 0.0005, 0.001, 0.01, 0.1, 1, 10], copy_X=True,
+       cv=None, eps=0.001, fit_intercept=True,
+       l1_ratio=[0.01, 0.1, 0.5, 0.9, 0.99], max_iter=5000, n_alphas=100,
+       n_jobs=1, normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)
+R2: 0.9009282836396285
+RMSE: 0.11921419830906911
+Test
+R2: 0.8967299617537993
+RMSE: 0.11097042355484425
+Accuracy: 0.88 (+/- 0.10)
+GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
+             learning_rate=0.05, loss='huber', max_depth=3,
+             max_features='sqrt', max_leaf_nodes=None,
+             min_impurity_decrease=0.0, min_impurity_split=None,
+             min_samples_leaf=15, min_samples_split=10,
+             min_weight_fraction_leaf=0.0, n_estimators=3000,
+             presort='auto', random_state=None, subsample=1.0, verbose=0,
+             warm_start=False)
+R2: 0.9621967175050222
+RMSE: 0.07561214754146357
+Test
+R2: 0.9020742193997819
+RMSE: 0.10748560955595318
+Accuracy: 0.89 (+/- 0.04)
