@@ -25,9 +25,11 @@ ElasticNetCV(alphas=[0.0001, 0.0005, 0.001, 0.01, 0.1, 1, 10], copy_X=True,
        random_state=None, selection='cyclic', tol=0.0001, verbose=0)
 R2: 0.9009282836396285
 RMSE: 0.11921419830906911
+RMSLE: 0.00919779987990656
 Test
 R2: 0.8967299617537993
 RMSE: 0.11097042355484425
+RMSLE: 0.008597195869364641
 Accuracy: 0.88 (+/- 0.10)
 GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
              learning_rate=0.05, loss='huber', max_depth=3,
@@ -39,7 +41,9 @@ GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
              warm_start=False)
 R2: 0.9621967175050222
 RMSE: 0.07561214754146357
+RMSLE: 0.005962683820457251
 Test
 R2: 0.9020742193997819
 RMSE: 0.10748560955595318
+RMSLE: 0.008197530387461648
 Accuracy: 0.89 (+/- 0.04)

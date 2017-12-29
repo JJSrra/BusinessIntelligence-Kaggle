@@ -35,9 +35,10 @@ train = train.drop((missing_data[missing_data['Total'] > 0]).index,1)
 '''
 
 # Prints R2 and RMSE scores
-def get_score(prediction, lables):
-    print('R2: {}'.format(r2_score(prediction, lables)))
-    print('RMSE: {}'.format(np.sqrt(mean_squared_error(prediction, lables))))
+def get_score(prediction, labels):
+    print('R2: {}'.format(r2_score(prediction, labels)))
+    print('RMSE: {}'.format(np.sqrt(mean_squared_error(prediction, labels))))
+    print('RMSLE: {}'.format(np.sqrt(np.square(np.log(prediction + 1) - np.log(labels + 1)).mean())))
 
 # Shows scores for train and validation sets
 def train_test(estimator, x_trn, x_tst, y_trn, y_tst):
