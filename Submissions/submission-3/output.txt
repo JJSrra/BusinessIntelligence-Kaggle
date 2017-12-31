@@ -1,0 +1,33 @@
+              Total   Percent
+PoolQC         1453  0.995205
+MiscFeature    1406  0.963014
+Alley          1369  0.937671
+Fence          1179  0.807534
+FireplaceQu     690  0.472603
+LotFrontage     259  0.177397
+GarageCond       81  0.055479
+GarageType       81  0.055479
+GarageYrBlt      81  0.055479
+GarageFinish     81  0.055479
+GarageQual       81  0.055479
+BsmtExposure     38  0.026027
+BsmtFinType2     38  0.026027
+BsmtFinType1     37  0.025342
+BsmtCond         37  0.025342
+BsmtQual         37  0.025342
+MasVnrArea        8  0.005479
+MasVnrType        8  0.005479
+Electrical        1  0.000685
+XGBRegressor(base_score=0.5, colsample_bylevel=1, colsample_bytree=1, gamma=0,
+       learning_rate=0.05, max_delta_step=0, max_depth=3,
+       min_child_weight=1, missing=None, n_estimators=3000, nthread=-1,
+       objective='reg:linear', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1)
+R2: 0.9971902274242356
+RMSE: 0.021167142946350206
+RMSLE: 0.0016307988766566474
+Test
+R2: 0.9037841458724373
+RMSE: 0.10800237378792756
+RMSLE: 0.008343861345743825
+Accuracy: 0.89 (+/- 0.03)
