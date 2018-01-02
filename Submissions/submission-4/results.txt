@@ -1,0 +1,6 @@
+02-01-2018 12:00
+Position 1016
+Error rate 0.13044
+
+"Own data preprocessing, mainly filtering variables."
+"Also, looking for missing data in the whole dataset, not only in train"
