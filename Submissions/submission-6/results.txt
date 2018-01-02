@@ -1,0 +1,5 @@
+02-01-2018 16:39
+Position 1024
+Error rate 0.12690
+
+"Most of the variables are used, with their NA filled appropiately."
