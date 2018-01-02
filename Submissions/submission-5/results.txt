@@ -1,0 +1,5 @@
+02-01-2018 15:23
+Position 1023
+Error rate 0.12832
+
+"Deleted outliers, median transformation applied to numerical variables with NaN values."

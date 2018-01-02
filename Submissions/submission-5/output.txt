@@ -1,0 +1,66 @@
+
+ mu = 12.02 and sigma = 0.40
+
+              Total   Percent
+Alley          2719  0.932122
+FireplaceQu    1420  0.486802
+LotFrontage     486  0.166610
+GarageQual      159  0.054508
+GarageFinish    159  0.054508
+GarageType      157  0.053822
+BsmtExposure     82  0.028111
+BsmtCond         82  0.028111
+BsmtQual         81  0.027768
+BsmtFinType2     80  0.027425
+BsmtFinType1     79  0.027083
+MasVnrType       24  0.008228
+MSZoning          4  0.001371
+Exterior2nd       1  0.000343
+TotalBsmtSF       1  0.000343
+KitchenQual       1  0.000343
+GarageCars        1  0.000343
+SaleType          1  0.000343
+Exterior1st       1  0.000343
+Electrical        1  0.000343
+ElasticNetCV(alphas=[0.0001, 0.0005, 0.001, 0.01, 0.1, 1, 10], copy_X=True,
+       cv=None, eps=0.001, fit_intercept=True,
+       l1_ratio=[0.01, 0.1, 0.5, 0.9, 0.99], max_iter=5000, n_alphas=100,
+       n_jobs=1, normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)
+R2: 0.9269663261524108
+RMSE: 0.10231916286239287
+RMSLE: 0.007981658975742276
+Test
+R2: 0.9199148891263502
+RMSE: 0.11295583217844428
+RMSLE: 0.008924233330382905
+Accuracy: 0.91 (+/- 0.03)
+GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
+             learning_rate=0.05, loss='huber', max_depth=3,
+             max_features='sqrt', max_leaf_nodes=None,
+             min_impurity_decrease=0.0, min_impurity_split=None,
+             min_samples_leaf=15, min_samples_split=10,
+             min_weight_fraction_leaf=0.0, n_estimators=3000,
+             presort='auto', random_state=None, subsample=1.0, verbose=0,
+             warm_start=False)
+R2: 0.9677616720254136
+RMSE: 0.06869302302815068
+RMSLE: 0.0054301298262547665
+Test
+R2: 0.8737406621935428
+RMSE: 0.13290958113943638
+RMSLE: 0.010553235755463575
+Accuracy: 0.91 (+/- 0.04)
+XGBRegressor(base_score=0.5, colsample_bylevel=1, colsample_bytree=1, gamma=0,
+       learning_rate=0.05, max_delta_step=0, max_depth=3,
+       min_child_weight=1, missing=None, n_estimators=3000, nthread=-1,
+       objective='reg:linear', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1)
+R2: 0.9974955668881031
+RMSE: 0.01970599907519459
+RMSLE: 0.0015195131730173404
+Test
+R2: 0.8907693101656986
+RMSE: 0.13078523430863218
+RMSLE: 0.010277983592887913
+Accuracy: 0.90 (+/- 0.03)
