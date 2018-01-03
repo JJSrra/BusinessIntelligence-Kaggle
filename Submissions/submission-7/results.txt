@@ -1,0 +1,5 @@
+03-01-2018 15:05
+Position 1039
+Error rate 0.12720
+
+"Added box-cox transformation to all numerical variables."
