@@ -1,0 +1,64 @@
+
+ mu = 12.02 and sigma = 0.40
+
+              Total   Percent
+PoolQC         2908  0.996915
+MiscFeature    2812  0.964004
+Alley          2719  0.932122
+Fence          2346  0.804251
+FireplaceQu    1420  0.486802
+LotFrontage     486  0.166610
+GarageCond      159  0.054508
+GarageQual      159  0.054508
+GarageYrBlt     159  0.054508
+GarageFinish    159  0.054508
+GarageType      157  0.053822
+BsmtCond         82  0.028111
+BsmtExposure     82  0.028111
+BsmtQual         81  0.027768
+BsmtFinType2     80  0.027425
+BsmtFinType1     79  0.027083
+MasVnrType       24  0.008228
+MasVnrArea       23  0.007885
+MSZoning          4  0.001371
+BsmtHalfBath      2  0.000686
+Functional        2  0.000686
+BsmtFullBath      2  0.000686
+BsmtFinSF2        1  0.000343
+BsmtUnfSF         1  0.000343
+BsmtFinSF1        1  0.000343
+Exterior2nd       1  0.000343
+TotalBsmtSF       1  0.000343
+Exterior1st       1  0.000343
+SaleType          1  0.000343
+Electrical        1  0.000343
+KitchenQual       1  0.000343
+GarageCars        1  0.000343
+GarageArea        1  0.000343
+
+Skew in numerical features: 
+
+                    Skew
+MiscVal        21.939672
+PoolArea       17.688664
+LotArea        13.109495
+LowQualFinSF   12.084539
+3SsnPorch      11.372080
+BsmtFinSF2      4.144503
+EnclosedPorch   4.002344
+ScreenPorch     3.945101
+BsmtHalfBath    3.929996
+MasVnrArea      2.610847
+ElasticNetCV(alphas=[0.0001, 0.0005, 0.001, 0.01, 0.1, 1, 10], copy_X=True,
+       cv=None, eps=0.001, fit_intercept=True,
+       l1_ratio=[0.01, 0.1, 0.5, 0.9, 0.99], max_iter=5000, n_alphas=100,
+       n_jobs=1, normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)
+R2: 0.934610448888773
+RMSE: 0.0970547802317818
+RMSLE: 0.007557294382084968
+Test
+R2: 0.9242992488043092
+RMSE: 0.10761684375977575
+RMSLE: 0.008467978416912169
+Accuracy: 0.92 (+/- 0.02)

@@ -1,0 +1,5 @@
+03-02-2018
+Position 1041
+RMSLE 0.13346
+
+"Box-cox applied only to the most skewed variables, only predicted with ElasticNet."
