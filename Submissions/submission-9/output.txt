@@ -1,0 +1,46 @@
+
+ mu = 12.02 and sigma = 0.40
+
+              Total   Percent
+PoolQC         2908  0.996915
+MiscFeature    2812  0.964004
+Alley          2719  0.932122
+Fence          2346  0.804251
+FireplaceQu    1420  0.486802
+LotFrontage     486  0.166610
+GarageCond      159  0.054508
+GarageQual      159  0.054508
+GarageYrBlt     159  0.054508
+GarageFinish    159  0.054508
+GarageType      157  0.053822
+BsmtCond         82  0.028111
+BsmtExposure     82  0.028111
+BsmtQual         81  0.027768
+BsmtFinType2     80  0.027425
+BsmtFinType1     79  0.027083
+MasVnrType       24  0.008228
+MasVnrArea       23  0.007885
+MSZoning          4  0.001371
+BsmtHalfBath      2  0.000686
+Utilities         2  0.000686
+Functional        2  0.000686
+BsmtFullBath      2  0.000686
+BsmtFinSF2        1  0.000343
+BsmtFinSF1        1  0.000343
+Exterior2nd       1  0.000343
+BsmtUnfSF         1  0.000343
+TotalBsmtSF       1  0.000343
+Exterior1st       1  0.000343
+SaleType          1  0.000343
+Electrical        1  0.000343
+KitchenQual       1  0.000343
+GarageArea        1  0.000343
+GarageCars        1  0.000343
+
+Skew in numerical features:
+There are 31 skewed numerical features to Box Cox transform
+
+AVERAGED MODELS
+
+RMSLE: 0.1088 (+/- 0.0067)
+
