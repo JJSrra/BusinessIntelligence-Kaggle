@@ -1,0 +1,5 @@
+04-01-2018 18:53
+Position 454
+RMSLE 0.11830
+
+"Some algorithm parameters have been upgraded in train dataset empirically."
