@@ -1,0 +1,5 @@
+04-01-2018 16:04
+Position 447
+RMSLE 0.11793
+
+"Changed categorical features to label encode, added simplified ones."
