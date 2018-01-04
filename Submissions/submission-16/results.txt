@@ -1,0 +1,5 @@
+04-01-2018 17:46
+Position 452
+RMSLE 0.11774
+
+"Predictions made with same preprocessing used in best submission, adding simplified features to label encoding and new transformations."
