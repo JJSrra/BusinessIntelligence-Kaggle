@@ -1,0 +1,5 @@
+04-01-2018 17:25
+Position 451
+RMSLE 0.11765
+
+"Generated new transformations on most correlated features to SalePrice."

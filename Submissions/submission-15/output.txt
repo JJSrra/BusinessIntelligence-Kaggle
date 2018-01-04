@@ -1,0 +1,85 @@
+
+ mu = 12.02 and sigma = 0.40
+
+              Total   Percent
+PoolQC         2908  0.996915
+MiscFeature    2812  0.964004
+Alley          2719  0.932122
+Fence          2346  0.804251
+FireplaceQu    1420  0.486802
+LotFrontage     486  0.166610
+GarageCond      159  0.054508
+GarageQual      159  0.054508
+GarageYrBlt     159  0.054508
+GarageFinish    159  0.054508
+GarageType      157  0.053822
+BsmtCond         82  0.028111
+BsmtExposure     82  0.028111
+BsmtQual         81  0.027768
+BsmtFinType2     80  0.027425
+BsmtFinType1     79  0.027083
+MasVnrType       24  0.008228
+MasVnrArea       23  0.007885
+MSZoning          4  0.001371
+BsmtHalfBath      2  0.000686
+Utilities         2  0.000686
+Functional        2  0.000686
+BsmtFullBath      2  0.000686
+BsmtFinSF2        1  0.000343
+BsmtFinSF1        1  0.000343
+Exterior2nd       1  0.000343
+BsmtUnfSF         1  0.000343
+TotalBsmtSF       1  0.000343
+Exterior1st       1  0.000343
+SaleType          1  0.000343
+Electrical        1  0.000343
+KitchenQual       1  0.000343
+GarageArea        1  0.000343
+GarageCars        1  0.000343
+
+Most correlated features to SalePrice:
+SalePrice      1.000000
+TotalSF        0.825326
+OverallQual    0.821405
+GrLivArea      0.725211
+ExterQual      0.682226
+GarageCars     0.681033
+TotalBaths     0.676678
+KitchenQual    0.669990
+GarageArea     0.656129
+TotalBsmtSF    0.647563
+Name: SalePrice, dtype: float64
+
+Skew in numerical features:
+There are 91 skewed numerical features to Box Cox transform
+
+Pipeline(memory=None,
+     steps=[('robustscaler', RobustScaler(copy=True, quantile_range=(25.0, 75.0), with_centering=True,
+       with_scaling=True)), ('elasticnet', ElasticNet(alpha=0.0005, copy_X=True, fit_intercept=True, l1_ratio=0.9,
+      max_iter=1000, normalize=False, positive=False, precompute=False,
+      random_state=101010, selection='cyclic', tol=0.0001,
+      warm_start=False))])
+GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
+             learning_rate=0.05, loss='huber', max_depth=4,
+             max_features='sqrt', max_leaf_nodes=None,
+             min_impurity_decrease=0.0, min_impurity_split=None,
+             min_samples_leaf=15, min_samples_split=10,
+             min_weight_fraction_leaf=0.0, n_estimators=3000,
+             presort='auto', random_state=101010, subsample=1.0, verbose=0,
+             warm_start=False)
+XGBRegressor(base_score=0.5, colsample_bylevel=1, colsample_bytree=0.2,
+       gamma=0.0, learning_rate=0.05, max_delta_step=0, max_depth=3,
+       min_child_weight=1.7, missing=None, n_estimators=2200, nthread=-1,
+       objective='reg:linear', reg_alpha=0.9, reg_lambda=0.6,
+       scale_pos_weight=1, seed=101010, silent=1, subsample=0.5)
+Pipeline(memory=None,
+     steps=[('robustscaler', RobustScaler(copy=True, quantile_range=(25.0, 75.0), with_centering=True,
+       with_scaling=True)), ('lasso', Lasso(alpha=0.0005, copy_X=True, fit_intercept=True, max_iter=1000,
+   normalize=False, positive=False, precompute=False, random_state=101010,
+   selection='cyclic', tol=0.0001, warm_start=False))])
+KernelRidge(alpha=0.6, coef0=2.5, degree=2, gamma=None, kernel='polynomial',
+      kernel_params=None)
+AVERAGED MODELS
+
+RMSLE: 0.1069 (+/- 0.0063)
+
