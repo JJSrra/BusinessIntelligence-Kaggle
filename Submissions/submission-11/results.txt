@@ -1,0 +1,6 @@
+04-02-2018 10:11
+Position 450
+RMSLE 0.11712
+
+"Estimation calculated with both GradientBoosting and XGBoost regressors."
+"Also, XGBoost parameters have changed."
