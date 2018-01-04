@@ -1,0 +1,5 @@
+04-01-2018 19:25
+Position 456
+RMSLE 0.11907
+
+"Stacked only ElasticNet, GradientBoosting and Lasso."
